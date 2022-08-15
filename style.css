@@ -27,14 +27,15 @@
     }
 
     input[type=submit] {
-        padding:15px 15px 15px 15px; 
-        background:rgb(224, 224, 224); 
-        color: black;
+        padding: 5px 20px 5px 20px; 
+        background:rgb(255, 255, 255); 
+        color: rgb(31, 122, 122);
         border:0 none;
         cursor:pointer;
-        -webkit-border-radius: 5px;
-        border-radius: 5px; 
-        justify-self: baseline;
+        font-weight: bold;
+        -webkit-border-radius: 10px;
+        border-radius: 10px; 
+        justify-self: right;
         text-align: center;
         text-justify: auto;
     }
@@ -46,7 +47,7 @@
     padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     }
 
     .footer {
@@ -57,5 +58,11 @@
         padding: 10px;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: right;
     }
+
+    p {
+        text-align: center;
+    }
+
+    

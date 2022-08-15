@@ -27,5 +27,7 @@ function handleSubmit(event) {
 function render(anything) {
     $main.html(`
         <p>TRY THIS: <br>${anything.activity}!!!</p>
+        <p>TYPE OF ACTIVITY: <br>[ ${anything.type} ]</p>
+        <p>PARTICIPANTS REQUIRED: <br>${anything.participants}</p>
     `)
 };
