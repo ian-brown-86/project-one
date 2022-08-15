@@ -9,6 +9,7 @@ An app that gives ideas of things to do for bored people!
 - Bored API
 
 ## Screenshots
+![Alt text](/img/Screenshot01.png)
 
 ## Getting Started
 
