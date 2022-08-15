@@ -26,6 +26,6 @@ function handleSubmit(event) {
 
 function render(anything) {
     $main.html(`
-        <p>do this: ${anything.activity}</p>
+        <p>TRY THIS: <br>${anything.activity}!!!</p>
     `)
 };
