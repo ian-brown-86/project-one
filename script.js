@@ -1,6 +1,9 @@
 const URL = 'http://www.boredapi.com/api/activity/';
 const $form = $('form');
 const $main = $('main');
+const $secondColumn = $('#secondColumn');
+const $thirdColumn = $('#thirdColumn');
+const $fourthColumn = $('#fourthColumn');
 
 const options = {
   method: 'GET',
@@ -25,9 +28,14 @@ function handleSubmit(event) {
 };
 
 function render(anything) {
-    $main.html(`
+    $secondColumn.html(`
         <p>TRY THIS: <br>${anything.activity}!!!</p>
+    `);
+    $thirdColumn.html(`
         <p>TYPE OF ACTIVITY: <br>[ ${anything.type} ]</p>
+    `);
+    $fourthColumn.html(`
         <p>PARTICIPANTS REQUIRED: <br>${anything.participants}</p>
-    `)
+    `);
 };
+

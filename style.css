@@ -3,8 +3,9 @@
             box-sizing: border-box; }
   
   html {
+    font-family: Helvetica sans-serif;
     font-size: 100%;
-    color: rgb(224, 224, 224);
+    color: rgb(241, 168, 168);
     font-weight: 300;
     text-rendering: optimizeLegibility;
     -webkit-font-kerning: normal;
@@ -14,55 +15,39 @@
     -moz-text-size-adjust: 100%;
          text-size-adjust: 100%; }
 
+.header {
+    border-bottom: 4px solid rgb(77, 58, 61);
+    width: 500px;
+    margin-bottom: 5px;
+}
 
-.center {
-    margin: auto;
-    height: 300px;
-    width: 60%;
-    background-color: rgb(31, 90, 92);
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
+.column {
+    float: left;
+    width: 25%;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    border-left: 3px solid rgb(196, 150, 157);
+    background-color: white;
+}
+          
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
-    input[type=submit] {
-        padding: 5px 20px 5px 20px; 
-        background:rgb(255, 255, 255); 
-        color: rgb(31, 122, 122);
-        border:0 none;
-        cursor:pointer;
-        font-weight: bold;
-        -webkit-border-radius: 10px;
-        border-radius: 10px; 
-        justify-self: right;
-        text-align: center;
-        text-justify: auto;
-    }
-    .header {
-    margin: auto;
-    height: 50px;
-    width: 60%;
-    background-color: rgb(46, 159, 163);
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    }
+input[type=submit] {
+    padding:5px 15px; 
+    background:rgb(88, 58, 58); 
+    color: rgb(235, 223, 223);
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; 
+}
 
-    .footer {
-        margin: auto;
-        height: 50px;
-        width: 60%;
-        background-color: rgb(46, 159, 163);
-        padding: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: right;
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
     }
-
-    p {
-        text-align: center;
-    }
-
-    
+  }
