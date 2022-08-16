@@ -39,13 +39,12 @@ function handleSubmit(event) {
 
 function render(anything) {
     $secondColumn.html(`
-        <p>TRY THIS: <br>${anything.activity}!!!</p>
+        <p class="linear-wipe">TRY THIS: <br>${anything.activity}!!!</p>
     `);
     $thirdColumn.html(`
-        <p>TYPE OF ACTIVITY: <br>[ ${anything.type} ]</p>
+        <p class="linear-wipe">TYPE OF ACTIVITY: <br>[ ${anything.type} ]</p>
     `);
     $fourthColumn.html(`
-        <p>PARTICIPANTS REQUIRED: <br>${anything.participants}</p>
+        <p class="linear-wipe">PARTICIPANTS REQUIRED: <br>${anything.participants}</p>
     `);
 };
-
