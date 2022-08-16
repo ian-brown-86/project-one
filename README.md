@@ -1,4 +1,4 @@
-# Activity Generator
+# BORED? : Activity Generator
 
 An app that gives ideas of things to do for bored people!
 
