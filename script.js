@@ -4,13 +4,23 @@ const $main = $('main');
 const $secondColumn = $('#secondColumn');
 const $thirdColumn = $('#thirdColumn');
 const $fourthColumn = $('#fourthColumn');
+const submitBtn = document.getElementById('demo');
+const submitBtnOriValue = document.getElementById('demo').value;
 
 const options = {
   method: 'GET',
   url: 'http://www.boredapi.com/api/activity/',
 };
 
-$form.on('submit', handleSubmit)
+$form.on('submit', handleSubmit);
+
+submitBtn.onmouseover  = function () {
+    submitBtn.value = "SURE THING, BOSS"
+};
+submitBtn.onmouseout  = function() {
+    submitBtn.value = submitBtnOriValue;
+};
+
 
 function handleSubmit(event) {
     event.preventDefault();

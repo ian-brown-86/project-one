@@ -6,14 +6,13 @@ An app that gives ideas of things to do for bored people!
 - HTML
 - CSS
 - JavaScript/jQuery
+- Adobe Photoshop
 - Bored API
 
 ## Screenshots
 ![Alt text](/img/Screenshot01.png)
 
 ## Getting Started
+ - insert link here
 
 ## Future Enhancements
- - Additional data on how many people are required.
- - Additional data on cost of activity.
- - Additional data on type of activity.
