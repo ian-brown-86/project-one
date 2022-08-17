@@ -1,4 +1,4 @@
-const URL = 'http://www.boredapi.com/api/activity/';
+const URL = 'https://www.boredapi.com/api/activity/';
 const $form = $('form');
 const $main = $('main');
 const $secondColumn = $('#secondColumn');
@@ -9,7 +9,7 @@ const submitBtnOriValue = document.getElementById('demo').value;
 
 const options = {
   method: 'GET',
-  url: 'http://www.boredapi.com/api/activity/',
+  url: 'https://www.boredapi.com/api/activity/',
 };
 
 $form.on('submit', handleSubmit);
@@ -30,7 +30,7 @@ function handleSubmit(event) {
         function(data){
             console.log('data: ', data);
             render(data);
-        }, 
+        },
         function(error){
         console.log('error: ', error);
         }
