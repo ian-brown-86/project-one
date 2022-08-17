@@ -1,4 +1,4 @@
-const URL = 'http://www.boredapi.com/api/activity/';
+const URL = 'https://proxified-boredapi.herokuapp.com/';
 const $form = $('form');
 const $main = $('main');
 const $secondColumn = $('#secondColumn');
@@ -9,7 +9,7 @@ const submitBtnOriValue = document.getElementById('demo').value;
 
 const options = {
   method: 'GET',
-  url: 'http://www.boredapi.com/api/activity/',
+  url: 'https://proxified-boredapi.herokuapp.com/',
 };
 
 $form.on('submit', handleSubmit);
