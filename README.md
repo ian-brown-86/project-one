@@ -14,6 +14,5 @@ An app that gives ideas of things to do for bored people!
 
 ## Getting Started
  - [CHECK OUT BORED!](https://storied-sprinkles-dcde3f.netlify.app/)
- - <a href="https://storied-sprinkles-dcde3f.netlify.app/" target="_blank">CHECK OUT BORED!</a>
 
 ## Future Enhancements
