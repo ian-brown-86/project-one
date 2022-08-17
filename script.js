@@ -1,4 +1,4 @@
-const URL = 'https://www.boredapi.com/api/activity/';
+const URL = 'http://www.boredapi.com/api/activity/';
 const $form = $('form');
 const $main = $('main');
 const $secondColumn = $('#secondColumn');
@@ -9,7 +9,7 @@ const submitBtnOriValue = document.getElementById('demo').value;
 
 const options = {
   method: 'GET',
-  url: 'https://www.boredapi.com/api/activity/',
+  url: 'http://www.boredapi.com/api/activity/',
 };
 
 $form.on('submit', handleSubmit);
