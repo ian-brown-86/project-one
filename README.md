@@ -13,6 +13,6 @@ An app that gives ideas of things to do for bored people!
 ![Alt text](/img/Screenshot01.png)
 
 ## Getting Started
- - insert link here
+ - [CHECK OUT BORED!](https://storied-sprinkles-dcde3f.netlify.app/)
 
 ## Future Enhancements
