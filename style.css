@@ -1,6 +1,7 @@
 * {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box; }
+            box-sizing: border-box;
+}
   
   html {
     font-family: Helvetica sans-serif;
@@ -13,7 +14,7 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-         text-size-adjust: 100%; 
+         text-size-adjust: 100%;
 }
 
 .header {
@@ -37,10 +38,11 @@ h1 {
     width: 25%;
     margin-bottom: 5px;
     padding-left: 5px;
+    padding-right: 5px;
     border-left: 3px solid rgb(196, 150, 157);
     background-color: white;
 }
-          
+
 .row:after {
     content: "";
     display: table;
@@ -51,17 +53,17 @@ h1 {
 input[type=submit] {
     font-family: 'Rubik Mono One', sans-serif;
     width: 250px;
-    padding:5px 15px; 
-    background:rgb(88, 58, 58); 
+    padding:5px 15px;
+    background:rgb(88, 58, 58);
     color: rgb(235, 223, 223);
     border:0 none;
     cursor: pointer;
     -webkit-border-radius: 10px;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
 input[type=submit]:hover {
-    background:rgb(235, 223, 223); 
+    background:rgb(235, 223, 223);
     color: rgb(88, 58, 58);
 }
 
@@ -88,4 +90,4 @@ input[type=submit]:hover {
     .column {
       width: 100%;
     }
-  }
+}
